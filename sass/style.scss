@@ -25,16 +25,19 @@ h3 {
 	font-size: 3rem;
 }
 
+p {
+	font-size: 1.9rem;
+}
+
 //GENERAL FOR COMPONENT PAGES
 .content-wrapper {
 	height:100vh;
-	text-align: center;
 }
 
 a.return-link {
 	position: absolute;
     top: 15px;
-    left: 15px;
+    left: 35px;
     font-family: $font-stack;
     font-style: italic;
     font-weight: 400;
@@ -47,14 +50,28 @@ a.return-link {
 }
 
 a.finish-task-btn {
-	position: absolute;
-    top: 15px;
-    right: 15px;
+	background-color: #E4E4E4;
+    border-color: #C1C1C1;
     &:hover {
     color: #fff;
     background-color: #449d44;
     border-color: #398439;
     }
+}
+
+.left-column-wrapper {
+    background-color: #B688B9;
+}
+
+.left-column {
+	padding-left: 20px;
+	p, h1, h2, h3, a {
+		text-align: center;
+	}
+}
+
+.right-column {
+	padding: 20px 20px 0 0;
 }
 
 //START PAGE
@@ -64,6 +81,7 @@ a.finish-task-btn {
 
 .start-component {
 	background-color: #FDFCF6;
+	text-align: center;
 }
 
 // .chapter-1-component {
