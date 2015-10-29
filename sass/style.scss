@@ -1,3 +1,58 @@
-body {
-	color: black;
+@import url(https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900,900italic,700italic,400italic);
+
+//GENERAL
+$font-stack: 'Playfair Display', Georgia, sans-serif;
+
+h1 {
+	font-family: $font-stack;
+	font-weight: 900;
+}
+
+h2 {
+	font-family: $font-stack;
+	font-style: italic;
+	font-weight: 900;
+}
+
+h3 {
+	font-family: $font-stack;
+	font-style: italic;
+	font-weight: 400;
+}
+
+//GENERAL FOR COMPONENT PAGES
+.content-wrapper {
+	text-align: center;
+}
+
+a.return-link {
+	position: absolute;
+    top: 15px;
+    left: 15px;
+    color: #000;
+    font-family: $font-stack;
+    font-weight: 900;
+    &:hover {
+    	color: #F00;
+    	text-decoration: none;
+    }
+}
+
+a.finish-task-btn {
+	position: absolute;
+    top: 15px;
+    right: 15px;
+    &:hover {
+    color: #fff;
+    background-color: #449d44;
+    border-color: #398439;
+    }
+}
+
+//START PAGE
+.header {
+	margin-bottom: 30px;
+	h1 {
+		margin: 0;
+	}
 }
