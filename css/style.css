@@ -1,62 +1,66 @@
-@import url(https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900,900italic,700italic,400italic);
+@import url(https://fonts.googleapis.com/css?family=Vollkorn:400,400italic,700,700italic);
 /* line 6, ../sass/style.scss */
 h1 {
-  font-family: "Playfair Display", Georgia, sans-serif;
-  font-weight: 900;
+  font-family: "Vollkorn", Georgia, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 11px;
+  font-weight: 700;
 }
 
-/* line 11, ../sass/style.scss */
+/* line 13, ../sass/style.scss */
 h2 {
-  font-family: "Playfair Display", Georgia, sans-serif;
+  font-family: "Vollkorn", Georgia, sans-serif;
   font-style: italic;
   font-weight: 900;
 }
 
-/* line 17, ../sass/style.scss */
+/* line 19, ../sass/style.scss */
 h3 {
-  font-family: "Playfair Display", Georgia, sans-serif;
+  font-family: "Vollkorn", Georgia, sans-serif;
   font-style: italic;
   font-weight: 400;
 }
 
-/* line 24, ../sass/style.scss */
+/* line 26, ../sass/style.scss */
 .content-wrapper {
   text-align: center;
 }
 
-/* line 28, ../sass/style.scss */
+/* line 30, ../sass/style.scss */
 a.return-link {
   position: absolute;
   top: 15px;
   left: 15px;
   color: #000;
-  font-family: "Playfair Display", Georgia, sans-serif;
-  font-weight: 900;
+  font-family: "Vollkorn", Georgia, sans-serif;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 2rem;
 }
-/* line 35, ../sass/style.scss */
+/* line 39, ../sass/style.scss */
 a.return-link:hover {
   color: #F00;
   text-decoration: none;
 }
 
-/* line 41, ../sass/style.scss */
+/* line 45, ../sass/style.scss */
 a.finish-task-btn {
   position: absolute;
   top: 15px;
   right: 15px;
 }
-/* line 45, ../sass/style.scss */
+/* line 49, ../sass/style.scss */
 a.finish-task-btn:hover {
   color: #fff;
   background-color: #449d44;
   border-color: #398439;
 }
 
-/* line 53, ../sass/style.scss */
+/* line 57, ../sass/style.scss */
 .header {
   margin-bottom: 30px;
 }
-/* line 55, ../sass/style.scss */
+/* line 59, ../sass/style.scss */
 .header h1 {
   margin: 0;
 }

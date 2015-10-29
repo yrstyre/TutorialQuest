@@ -1,11 +1,13 @@
-@import url(https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900,900italic,700italic,400italic);
+@import url(https://fonts.googleapis.com/css?family=Vollkorn:400,400italic,700,700italic);
 
 //GENERAL
-$font-stack: 'Playfair Display', Georgia, sans-serif;
+$font-stack: 'Vollkorn', Georgia, sans-serif;
 
 h1 {
 	font-family: $font-stack;
-	font-weight: 900;
+	text-transform: uppercase;
+    letter-spacing: 11px;
+    font-weight: 700;
 }
 
 h2 {
@@ -31,7 +33,9 @@ a.return-link {
     left: 15px;
     color: #000;
     font-family: $font-stack;
-    font-weight: 900;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 2rem;
     &:hover {
     	color: #F00;
     	text-decoration: none;
