@@ -2,28 +2,32 @@
 
 //GENERAL
 $font-stack: 'Vollkorn', Georgia, sans-serif;
+$font-color: #333;
 
 h1 {
 	font-family: $font-stack;
 	text-transform: uppercase;
     letter-spacing: 11px;
     font-weight: 700;
+    font-size: 5.5rem;
 }
 
 h2 {
 	font-family: $font-stack;
-	font-style: italic;
-	font-weight: 900;
+	font-weight: 700;
+	font-size: 4rem;
 }
 
 h3 {
 	font-family: $font-stack;
 	font-style: italic;
 	font-weight: 400;
+	font-size: 3rem;
 }
 
 //GENERAL FOR COMPONENT PAGES
 .content-wrapper {
+	height:100vh;
 	text-align: center;
 }
 
@@ -31,11 +35,11 @@ a.return-link {
 	position: absolute;
     top: 15px;
     left: 15px;
-    color: #000;
     font-family: $font-stack;
     font-style: italic;
     font-weight: 400;
     font-size: 2rem;
+    color: $font-color;
     &:hover {
     	color: #F00;
     	text-decoration: none;
@@ -54,6 +58,22 @@ a.finish-task-btn {
 }
 
 //START PAGE
+.component-wrapper {
+	height: 100%;
+}
+
+.start-component {
+	background-color: #FDFCF6;
+}
+
+// .chapter-1-component {
+// 	background-color: #000;
+// }
+
+// .chapter-2-component {
+// 	background-color: #000;
+// }
+
 .header {
 	margin-bottom: 30px;
 	h1 {

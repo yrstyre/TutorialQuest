@@ -1,66 +1,79 @@
 @import url(https://fonts.googleapis.com/css?family=Vollkorn:400,400italic,700,700italic);
-/* line 6, ../sass/style.scss */
+/* line 7, ../sass/style.scss */
 h1 {
   font-family: "Vollkorn", Georgia, sans-serif;
   text-transform: uppercase;
   letter-spacing: 11px;
   font-weight: 700;
+  font-size: 5.5rem;
 }
 
-/* line 13, ../sass/style.scss */
+/* line 15, ../sass/style.scss */
 h2 {
   font-family: "Vollkorn", Georgia, sans-serif;
-  font-style: italic;
-  font-weight: 900;
+  font-weight: 700;
+  font-size: 4rem;
 }
 
-/* line 19, ../sass/style.scss */
+/* line 21, ../sass/style.scss */
 h3 {
   font-family: "Vollkorn", Georgia, sans-serif;
   font-style: italic;
   font-weight: 400;
+  font-size: 3rem;
 }
 
-/* line 26, ../sass/style.scss */
+/* line 29, ../sass/style.scss */
 .content-wrapper {
+  height: 100vh;
   text-align: center;
 }
 
-/* line 30, ../sass/style.scss */
+/* line 34, ../sass/style.scss */
 a.return-link {
   position: absolute;
   top: 15px;
   left: 15px;
-  color: #000;
   font-family: "Vollkorn", Georgia, sans-serif;
   font-style: italic;
   font-weight: 400;
   font-size: 2rem;
+  color: #333;
 }
-/* line 39, ../sass/style.scss */
+/* line 43, ../sass/style.scss */
 a.return-link:hover {
   color: #F00;
   text-decoration: none;
 }
 
-/* line 45, ../sass/style.scss */
+/* line 49, ../sass/style.scss */
 a.finish-task-btn {
   position: absolute;
   top: 15px;
   right: 15px;
 }
-/* line 49, ../sass/style.scss */
+/* line 53, ../sass/style.scss */
 a.finish-task-btn:hover {
   color: #fff;
   background-color: #449d44;
   border-color: #398439;
 }
 
-/* line 57, ../sass/style.scss */
+/* line 61, ../sass/style.scss */
+.component-wrapper {
+  height: 100%;
+}
+
+/* line 65, ../sass/style.scss */
+.start-component {
+  background-color: #FDFCF6;
+}
+
+/* line 77, ../sass/style.scss */
 .header {
   margin-bottom: 30px;
 }
-/* line 59, ../sass/style.scss */
+/* line 79, ../sass/style.scss */
 .header h1 {
   margin: 0;
 }
