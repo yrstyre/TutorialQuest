@@ -114,9 +114,10 @@ a.finish-task-btn:hover {
 
 /* line 112, ../sass/style.scss */
 .header {
+  margin-top: 16%;
   margin-bottom: 30px;
 }
-/* line 114, ../sass/style.scss */
+/* line 115, ../sass/style.scss */
 .header h1 {
   margin: 0;
 }
