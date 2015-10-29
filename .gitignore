@@ -52,6 +52,7 @@ ClientBin/
 *.pfx
 *.publishsettings
 bower_components/
+node_modules/
 
 # Git mergetool files
 *.orig
