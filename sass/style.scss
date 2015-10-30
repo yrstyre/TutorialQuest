@@ -54,7 +54,7 @@ a.return-link {
     font-size: 2rem;
     color: $font-color;
     &:hover {
-    	color: #F00;
+    	opacity: 0.5;
     	text-decoration: none;
     }
 }
@@ -69,13 +69,8 @@ a.finish-task-btn {
     }
 }
 
-.left-column-wrapper {
-    background-color: #B688B9;
+.left-column-wrapper, .right-column-wrapper {
     height: 100%;
-}
-
-.right-column-wrapper {
-	height: 100%;
 }
 
 .left-column {
@@ -114,5 +109,19 @@ a.finish-task-btn {
 	margin-bottom: 30px;
 	h1 {
 		margin: 0;
+	}
+}
+
+//CHAPTER 1
+.chapter-1-component {
+	.left-column-wrapper {
+	    background-color: #B688B9;
+	}
+}
+
+//CHAPTER 2
+.chapter-2-component {
+.left-column-wrapper {
+	    background-color: #DEA35E;
 	}
 }
