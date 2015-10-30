@@ -3,12 +3,16 @@ define(['knockout', 'underscore'], function (ko, _) {
 
 	function Quest(params) {
 		var params = params || {};
+
+		setTimeout(this.startHelpTour, 100);
 	}
 
 	Quest.prototype = _.extend(Quest.prototype, {
 		startQuest: function () {
-			console.log("whah");
-		}
+			
+		},
+
+		
 	});
 
 	return Quest;
