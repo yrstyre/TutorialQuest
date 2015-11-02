@@ -44,6 +44,13 @@ img {
 	height:100vh;
 }
 
+.component-wrapper {
+	height: 100%;
+	h1 {
+		text-align: center;
+	}
+}
+
 a.return-link {
 	position: absolute;
     top: 15px;
@@ -83,10 +90,6 @@ a.finish-task-btn {
 }
 
 //START PAGE
-.component-wrapper {
-	height: 100%;
-}
-
 .start-component {
 	background-color: #FDFCF6;
 	text-align: center;
@@ -113,12 +116,6 @@ a.finish-task-btn {
 }
 
 //CHAPTERS OVERVIEW
-.chapters-overview-component {
-	h1 {
-		text-align: center;
-	}
-}
-
 .coming-soon-chapter {
 	background-color: #ECECEC;
 	color: #828282;
@@ -139,6 +136,27 @@ a.finish-task-btn {
 .step-2-component {
 .left-column-wrapper {
 	    background-color: #DEA35E;
+	}
+}
+
+//STEP 3
+.step-3-component {
+	.left-column-wrapper {
+	    background-color: #88B9B2;
+	}
+}
+
+//STEP 4
+.step-4-component {
+.left-column-wrapper {
+	    background-color: #F5B1D4;
+	}
+}
+
+//STEP 5
+.step-5-component {
+.left-column-wrapper {
+	    background-color: #A5C0EF;
 	}
 }
 

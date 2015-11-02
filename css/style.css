@@ -46,6 +46,15 @@ img {
 }
 
 /* line 47, ../sass/style.scss */
+.component-wrapper {
+  height: 100%;
+}
+/* line 49, ../sass/style.scss */
+.component-wrapper h1 {
+  text-align: center;
+}
+
+/* line 54, ../sass/style.scss */
 a.return-link {
   position: absolute;
   top: 15px;
@@ -56,93 +65,98 @@ a.return-link {
   font-size: 2rem;
   color: #333;
 }
-/* line 56, ../sass/style.scss */
+/* line 63, ../sass/style.scss */
 a.return-link:hover {
   opacity: 0.5;
   text-decoration: none;
 }
 
-/* line 62, ../sass/style.scss */
+/* line 69, ../sass/style.scss */
 a.finish-task-btn {
   background-color: #E4E4E4;
   border-color: #C1C1C1;
 }
-/* line 65, ../sass/style.scss */
+/* line 72, ../sass/style.scss */
 a.finish-task-btn:hover {
   color: #fff;
   background-color: #449d44;
   border-color: #398439;
 }
 
-/* line 72, ../sass/style.scss */
+/* line 79, ../sass/style.scss */
 .left-column-wrapper, .right-column-wrapper {
   height: 100%;
 }
 
-/* line 76, ../sass/style.scss */
+/* line 83, ../sass/style.scss */
 .left-column {
   padding: 20px 0 0 20px;
   text-align: center;
 }
 
-/* line 81, ../sass/style.scss */
+/* line 88, ../sass/style.scss */
 .right-column {
   padding: 20px 20px 0 0;
 }
 
-/* line 86, ../sass/style.scss */
-.component-wrapper {
-  height: 100%;
-}
-
-/* line 90, ../sass/style.scss */
+/* line 93, ../sass/style.scss */
 .start-component {
   background-color: #FDFCF6;
   text-align: center;
 }
 
-/* line 95, ../sass/style.scss */
+/* line 98, ../sass/style.scss */
 .quest-text {
   margin-bottom: 55px;
 }
 
-/* line 107, ../sass/style.scss */
+/* line 110, ../sass/style.scss */
 .header {
   margin-top: 16%;
   margin-bottom: 30px;
 }
-/* line 110, ../sass/style.scss */
+/* line 113, ../sass/style.scss */
 .header h1 {
   margin: 0;
 }
 
-/* line 117, ../sass/style.scss */
-.chapters-overview-component h1 {
-  text-align: center;
-}
-
-/* line 122, ../sass/style.scss */
+/* line 119, ../sass/style.scss */
 .coming-soon-chapter {
   background-color: #ECECEC;
   color: #828282;
 }
-/* line 125, ../sass/style.scss */
+/* line 122, ../sass/style.scss */
 .coming-soon-chapter i {
   font-size: 25px;
   padding-right: 10px;
 }
 
-/* line 133, ../sass/style.scss */
+/* line 130, ../sass/style.scss */
 .step-1-component .left-column-wrapper {
   background-color: #B688B9;
 }
 
-/* line 140, ../sass/style.scss */
+/* line 137, ../sass/style.scss */
 .step-2-component .left-column-wrapper {
   background-color: #DEA35E;
 }
 
-/* line 146, ../sass/style.scss */
+/* line 144, ../sass/style.scss */
+.step-3-component .left-column-wrapper {
+  background-color: #88B9B2;
+}
+
+/* line 151, ../sass/style.scss */
+.step-4-component .left-column-wrapper {
+  background-color: #F5B1D4;
+}
+
+/* line 158, ../sass/style.scss */
+.step-5-component .left-column-wrapper {
+  background-color: #A5C0EF;
+}
+
+/* line 164, ../sass/style.scss */
 .footer {
   position: absolute;
   bottom: 0;
