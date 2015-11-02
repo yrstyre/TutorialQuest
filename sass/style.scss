@@ -1,0 +1,176 @@
+@import url(https://fonts.googleapis.com/css?family=Vollkorn:400,400italic,700,700italic);
+
+//GENERAL
+$font-stack: 'Vollkorn', Georgia, sans-serif;
+$font-color: #333;
+
+h1 {
+	font-family: $font-stack;
+	text-transform: uppercase;
+    letter-spacing: 11px;
+    font-weight: 700;
+    font-size: 5.5rem;
+}
+
+h2 {
+	font-family: $font-stack;
+	font-weight: 700;
+	font-size: 4rem;
+}
+
+h3 {
+	font-family: $font-stack;
+	font-style: italic;
+	font-weight: 400;
+	font-size: 3rem;
+}
+
+h4 {
+	font-family: $font-stack;
+	font-weight: 700;
+	font-size: 2.5rem;
+}
+
+p {
+	font-size: 1.9rem;
+}
+
+img {
+	 max-width: 430px;
+}
+
+//GENERAL FOR COMPONENT PAGES
+.content-wrapper {
+	height:100vh;
+}
+
+.component-wrapper {
+	height: 100%;
+	h1 {
+		text-align: center;
+	}
+}
+
+a.return-link {
+	position: absolute;
+    top: 15px;
+    left: 35px;
+    font-family: $font-stack;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 2rem;
+    color: $font-color;
+    &:hover {
+    	opacity: 0.5;
+    	text-decoration: none;
+    }
+}
+
+a.finish-task-btn {
+	background-color: #E4E4E4;
+    border-color: #C1C1C1;
+    &:hover {
+    color: #fff;
+    background-color: #449d44;
+    border-color: #398439;
+    }
+}
+
+.left-column-wrapper, .right-column-wrapper {
+    height: 100%;
+}
+
+.left-column {
+	padding: 20px 0 0 20px;
+	text-align: center;
+}
+
+.right-column {
+	padding: 20px 20px 0 0;
+}
+
+//START PAGE
+.start-component {
+	background-color: #FDFCF6;
+	text-align: center;
+}
+
+.quest-text {
+	margin-bottom: 55px;
+}
+
+// .chapter-1-component {
+// 	background-color: #000;
+// }
+
+// .chapter-2-component {
+// 	background-color: #000;
+// }
+
+.header {
+	margin-top: 16%;
+	margin-bottom: 30px;
+	h1 {
+		margin: 0;
+	}
+}
+
+//CHAPTERS OVERVIEW
+.chapters-overview-component {
+	h1 {
+		padding-top: 20px;
+	}
+}
+
+.coming-soon-chapter {
+	background-color: #ECECEC;
+	color: #828282;
+	i {
+		font-size: 25px;
+		padding-right: 10px;
+	}
+}
+
+//STEP 1
+.step-1-component {
+	.left-column-wrapper {
+	    background-color: #B688B9;
+	}
+}
+
+//STEP 2
+.step-2-component {
+.left-column-wrapper {
+	    background-color: #DEA35E;
+	}
+}
+
+//STEP 3
+.step-3-component {
+	.left-column-wrapper {
+	    background-color: #88B9B2;
+	}
+}
+
+//STEP 4
+.step-4-component {
+.left-column-wrapper {
+	    background-color: #F5B1D4;
+	}
+}
+
+//STEP 5
+.step-5-component {
+.left-column-wrapper {
+	    background-color: #A5C0EF;
+	}
+}
+
+//STICKY FOOTER
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 80px;
+    background-color: #424242;
+}
