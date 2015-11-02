@@ -5,6 +5,8 @@ define(['underscore', 'knockout'], function (_, ko) {
 		this.componentName = ko.observable();
         this.params = ko.observable();
 
+        this.experiencePoints = ko.observable(0);
+
         setTimeout(this.startHelpTour, 100);
 	}
 
@@ -30,7 +32,18 @@ define(['underscore', 'knockout'], function (_, ko) {
 
             // Start the tour
             tour.start();
-        }
+        },
+
+        // getPointsAndRedirect: function (part) {
+        // 	this.experiencePoints(this.experiencePoints() + 10);
+
+        // 	if(part.id >= 5) { //TODO: set 5 in config as numberOfSteps
+        // 		return;
+        // 	}
+
+        // 	window.location.href = '#/step-' + (part.id + 1);
+        	
+        // }
 	});
 
 	return Tutorial;

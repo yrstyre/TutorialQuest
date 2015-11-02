@@ -1,14 +1,16 @@
 define(['knockout',
-	'viewmodels/Quest',
 	'text!components/start-component.html',
 	'text!components/chapters-overview-component.html',
 	'text!components/step-1-component.html',
-	'text!components/step-2-component.html'], function (ko, Quest, startComponent, chaptersOverviewComponent, step1Component, step2Component) {
+	'text!components/step-2-component.html'], function (ko, startComponent, chaptersOverviewComponent, step1Component, step2Component) {
 
 	'use strict';
 
     ko.components.register('start-component', {
-	 	viewModel: Quest,
+	 	viewModel: function (params) {
+	 		this.params = ko.observable(params);
+	 		setTimeout(this.startHelpTour, 100);
+	 	},
         template: startComponent
     });
 
@@ -20,8 +22,9 @@ define(['knockout',
     });
 
     ko.components.register('step-1-component', {
-		viewModel: function(params) {
+	 	viewModel: function(params) {
 	        this.params = ko.observable(params);
+	        this.id = 1;
 	    },
         template: step1Component
     });
@@ -29,6 +32,7 @@ define(['knockout',
     ko.components.register('step-2-component', {
 		viewModel: function(params) {
 	        this.params = ko.observable(params);
+	        this.stepId = 2;
 	    },
         template: step2Component
     });
