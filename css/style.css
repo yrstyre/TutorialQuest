@@ -116,28 +116,33 @@ a.finish-task-btn:hover {
   margin: 0;
 }
 
-/* line 116, ../sass/style.scss */
+/* line 117, ../sass/style.scss */
+.chapters-overview-component h1 {
+  text-align: center;
+}
+
+/* line 122, ../sass/style.scss */
 .coming-soon-chapter {
   background-color: #ECECEC;
   color: #828282;
 }
-/* line 119, ../sass/style.scss */
+/* line 125, ../sass/style.scss */
 .coming-soon-chapter i {
   font-size: 25px;
   padding-right: 10px;
 }
 
-/* line 127, ../sass/style.scss */
+/* line 133, ../sass/style.scss */
 .step-1-component .left-column-wrapper {
   background-color: #B688B9;
 }
 
-/* line 134, ../sass/style.scss */
+/* line 140, ../sass/style.scss */
 .step-2-component .left-column-wrapper {
   background-color: #DEA35E;
 }
 
-/* line 140, ../sass/style.scss */
+/* line 146, ../sass/style.scss */
 .footer {
   position: absolute;
   bottom: 0;
