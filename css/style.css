@@ -120,43 +120,48 @@ a.finish-task-btn:hover {
   margin: 0;
 }
 
-/* line 119, ../sass/style.scss */
+/* line 120, ../sass/style.scss */
+.chapters-overview-component h1 {
+  padding-top: 20px;
+}
+
+/* line 125, ../sass/style.scss */
 .coming-soon-chapter {
   background-color: #ECECEC;
   color: #828282;
 }
-/* line 122, ../sass/style.scss */
+/* line 128, ../sass/style.scss */
 .coming-soon-chapter i {
   font-size: 25px;
   padding-right: 10px;
 }
 
-/* line 130, ../sass/style.scss */
+/* line 136, ../sass/style.scss */
 .step-1-component .left-column-wrapper {
   background-color: #B688B9;
 }
 
-/* line 137, ../sass/style.scss */
+/* line 143, ../sass/style.scss */
 .step-2-component .left-column-wrapper {
   background-color: #DEA35E;
 }
 
-/* line 144, ../sass/style.scss */
+/* line 150, ../sass/style.scss */
 .step-3-component .left-column-wrapper {
   background-color: #88B9B2;
 }
 
-/* line 151, ../sass/style.scss */
+/* line 157, ../sass/style.scss */
 .step-4-component .left-column-wrapper {
   background-color: #F5B1D4;
 }
 
-/* line 158, ../sass/style.scss */
+/* line 164, ../sass/style.scss */
 .step-5-component .left-column-wrapper {
   background-color: #A5C0EF;
 }
 
-/* line 164, ../sass/style.scss */
+/* line 170, ../sass/style.scss */
 .footer {
   position: absolute;
   bottom: 0;
