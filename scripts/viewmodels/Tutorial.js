@@ -16,7 +16,7 @@ define(['underscore', 'knockout'], function (_, ko) {
         	tour.addSteps([
 			    {
 			      element: ".quest-text", 
-			      content: "Cont1111ent of my step",
+			      content: "Cont1111ent of my step", //TODO: finish tour
 			      placement: "bottom"
 			    },
 			    {
