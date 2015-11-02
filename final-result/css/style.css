@@ -1,0 +1,10 @@
+body {
+	text-align: center;
+}
+
+#person-sentence {
+	display: none;
+}
+#person-sentence.visible {
+	display: block;
+}

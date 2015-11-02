@@ -11,7 +11,7 @@ define(['underscore', 'knockout'], function (_, ko) {
 	Tutorial.prototype = _.extend(Tutorial.prototype, {
 		startHelpTour: function (argument) {
         	var tour = new Tour({
-        		name: 'vvv'
+        		name: 'gdgd' //TODO: set name for help-tour
         	});
         	tour.addSteps([
 			    {

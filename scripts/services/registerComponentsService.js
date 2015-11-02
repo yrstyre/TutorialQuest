@@ -1,8 +1,9 @@
 define(['knockout',
 	'viewmodels/Quest',
 	'text!components/start-component.html',
-	'text!components/chapter-1-component.html',
-	'text!components/chapter-2-component.html'], function (ko, Quest, startComponent, chapter1Component, chapter2Component) {
+	'text!components/chapters-overview-component.html',
+	'text!components/step-1-component.html',
+	'text!components/step-2-component.html'], function (ko, Quest, startComponent, chaptersOverviewComponent, step1Component, step2Component) {
 
 	'use strict';
 
@@ -11,17 +12,26 @@ define(['knockout',
         template: startComponent
     });
 
-    ko.components.register('chapter-1-component', {
+    ko.components.register('chapters-overview-component', {
 		viewModel: function(params) {
 	        this.params = ko.observable(params);
 	    },
-        template: chapter1Component
+        template: chaptersOverviewComponent
     });
 
-    ko.components.register('chapter-2-component', {
+    ko.components.register('step-1-component', {
 		viewModel: function(params) {
 	        this.params = ko.observable(params);
 	    },
-        template: chapter2Component
+        template: step1Component
     });
+
+    ko.components.register('step-2-component', {
+		viewModel: function(params) {
+	        this.params = ko.observable(params);
+	    },
+        template: step2Component
+    });
+
+
 });
