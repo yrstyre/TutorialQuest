@@ -137,27 +137,27 @@ a.finish-task-btn:hover {
 }
 
 /* line 136, ../sass/style.scss */
-.step-1-component .left-column-wrapper {
+.chapter-1-step-1-component .left-column-wrapper {
   background-color: #B688B9;
 }
 
 /* line 143, ../sass/style.scss */
-.step-2-component .left-column-wrapper {
+.chapter-1-step-2-component .left-column-wrapper {
   background-color: #DEA35E;
 }
 
 /* line 150, ../sass/style.scss */
-.step-3-component .left-column-wrapper {
+.chapter-1-step-3-component .left-column-wrapper {
   background-color: #88B9B2;
 }
 
 /* line 157, ../sass/style.scss */
-.step-4-component .left-column-wrapper {
+.chapter-1-step-4-component .left-column-wrapper {
   background-color: #F5B1D4;
 }
 
 /* line 164, ../sass/style.scss */
-.step-5-component .left-column-wrapper {
+.chapter-1-step-5-component .left-column-wrapper {
   background-color: #A5C0EF;
 }
 
@@ -168,4 +168,24 @@ a.finish-task-btn:hover {
   width: 100%;
   height: 80px;
   background-color: #424242;
+}
+
+/* line 179, ../sass/style.scss */
+.popover {
+  background: #CDF5F7;
+}
+
+/* line 182, ../sass/style.scss */
+.popover.right .arrow:after {
+  border-right-color: #CDF5F7;
+}
+
+/* line 186, ../sass/style.scss */
+.popover.left .arrow:after {
+  border-left-color: #CDF5F7;
+}
+
+/* line 191, ../sass/style.scss */
+.popover[class*=tour-] {
+  z-index: 1101;
 }
