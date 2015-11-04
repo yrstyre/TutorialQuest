@@ -26,7 +26,7 @@ define(['config'], function (config) {
 	            keyboard: true,
 	            backdrop: true,
 	            debug: true,
-	            storage: false, //For debugging, set to false. Remove this in when production
+	            //storage: false, //For debugging, set to false. Remove this in when production
 	            steps: [
 	                {
 	                    element: '.left-column-wrapper',
