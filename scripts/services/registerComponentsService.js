@@ -1,12 +1,12 @@
 define(['knockout',
 	'text!components/start-component.html',
 	'text!components/chapters-overview-component.html',
-	'text!components/step-1-component.html',
-	'text!components/step-2-component.html',
-	'text!components/step-3-component.html',
-	'text!components/step-4-component.html',
-	'text!components/step-5-component.html',
-	'text!components/finish-component.html'], function (ko, startComponent, chaptersOverviewComponent, step1Component, step2Component, step3Component, step4Component, step5Component, finishComponent) {
+	'text!components/chapter-1-step-1-component.html',
+	'text!components/chapter-1-step-2-component.html',
+	'text!components/chapter-1-step-3-component.html',
+	'text!components/chapter-1-step-4-component.html',
+	'text!components/chapter-1-step-5-component.html',
+	'text!components/finish-component.html'], function (ko, startComponent, chaptersOverviewComponent, chapter1Step1Component, chapter1Step2Component, chapter1Step3Component, chapter1Step4Component, chapter1Step5Component, finishComponent) {
 
 	'use strict';
 
@@ -25,44 +25,44 @@ define(['knockout',
         template: chaptersOverviewComponent
     });
 
-    ko.components.register('step-1-component', {
+    ko.components.register('chapter-1-step-1-component', {
 	 	viewModel: function(params) {
 	        this.params = ko.observable(params);
-	        this.id = 1;
+	        this.id = 11;
 	    },
-        template: step1Component
+        template: chapter1Step1Component
     });
 
-    ko.components.register('step-2-component', {
+    ko.components.register('chapter-1-step-2-component', {
 		viewModel: function(params) {
 	        this.params = ko.observable(params);
-	        this.stepId = 2;
+	        this.stepId = 12;
 	    },
-        template: step2Component
+        template: chapter1Step2Component
     });
 
-    ko.components.register('step-3-component', {
+    ko.components.register('chapter-1-step-3-component', {
 		viewModel: function(params) {
 	        this.params = ko.observable(params);
-	        this.stepId = 3;
+	        this.stepId = 13;
 	    },
-        template: step3Component
+        template: chapter1Step3Component
     });
 
-    ko.components.register('step-4-component', {
+    ko.components.register('chapter-1-step-4-component', {
 		viewModel: function(params) {
 	        this.params = ko.observable(params);
-	        this.stepId = 4;
+	        this.stepId = 14;
 	    },
-        template: step4Component
+        template: chapter1Step4Component
     });
 
-    ko.components.register('step-5-component', {
+    ko.components.register('chapter-1-step-5-component', {
 		viewModel: function(params) {
 	        this.params = ko.observable(params);
-	        this.stepId = 5;
+	        this.stepId = 15;
 	    },
-        template: step5Component
+        template: chapter1Step5Component
     });
 
     ko.components.register('finish-component', {
