@@ -1,4 +1,4 @@
-define(["jquery", "knockout", "sammy", "config"], function ($, ko, sammy, config) {
+define(["jquery", "knockout", "sammy", "config", "services/tourService"], function ($, ko, sammy, config, tourService) {
 	'use strict';
 
     var router = {};
@@ -13,6 +13,10 @@ define(["jquery", "knockout", "sammy", "config"], function ($, ko, sammy, config
 
             this.get("#/:component", function (context) {
                 vm.componentName(self.getComponentName(context));
+                var pageId = vm.componentName().replace(/[^0-9]/g, '') ? parseInt(vm.componentName().replace(/[^0-9]/g, '')) : null;
+
+                tourService.start(pageId);
+
                 vm.params({});
             });
         });
