@@ -7,7 +7,7 @@ define(["jquery", "knockout", "sammy", "config"], function ($, ko, sammy, config
     	var def = $.Deferred();
         var self = this;
         var s = sammy('#quest-app', function () {
-        	this.get("/", function () {
+        	this.get("#/", function () {
                 vm.componentName("start-component");
         	});
 
@@ -16,7 +16,7 @@ define(["jquery", "knockout", "sammy", "config"], function ($, ko, sammy, config
                 vm.params({});
             });
         });
-        s.run('/');
+        s.run('#/');
         def.resolve();
         return def.promise();
     };
