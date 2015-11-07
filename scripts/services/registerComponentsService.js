@@ -1,12 +1,13 @@
 define(['knockout',
 	'text!components/start-component.html',
+	'text!components/intro-component.html',
 	'text!components/chapters-overview-component.html',
 	'text!components/chapter-1-step-1-component.html',
 	'text!components/chapter-1-step-2-component.html',
 	'text!components/chapter-1-step-3-component.html',
 	'text!components/chapter-1-step-4-component.html',
 	'text!components/chapter-1-step-5-component.html',
-	'text!components/finish-component.html'], function (ko, startComponent, chaptersOverviewComponent, chapter1Step1Component, chapter1Step2Component, chapter1Step3Component, chapter1Step4Component, chapter1Step5Component, finishComponent) {
+	'text!components/finish-component.html'], function (ko, startComponent, introComponent, chaptersOverviewComponent, chapter1Step1Component, chapter1Step2Component, chapter1Step3Component, chapter1Step4Component, chapter1Step5Component, finishComponent) {
 
 	'use strict';
 
@@ -16,6 +17,13 @@ define(['knockout',
 	 		setTimeout(this.startHelpTour, 100);
 	 	},
         template: startComponent
+    });
+
+    ko.components.register('intro-component', {
+	 	viewModel: function (params) {
+	 		this.params = ko.observable(params);
+	 	},
+        template: introComponent
     });
 
     ko.components.register('chapters-overview-component', {
